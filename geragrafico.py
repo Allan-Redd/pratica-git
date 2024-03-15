@@ -11,6 +11,9 @@ def main():
     os.system("cls")
     print(valores)
 
+    plt.ylabel('Valores de entrada')
+    plt.xlabel('Amostragem')
+
     plt.plot(valores)
     plt.show()
 
