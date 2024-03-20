@@ -18,7 +18,7 @@ def main():
 
     for serie in valores:
        plt.plot(serie)
-
+    
     plt.show()
 
 
